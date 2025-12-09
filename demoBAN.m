@@ -2,7 +2,7 @@ clear; close all;
 addPath;
 
 %% Read Data
-load('../data/BrainArteryTree/BrainTreeLeft.mat')
+load('./data/BrainArteryTree/BrainTreeLeft.mat')
 
 %% Matching
 i1 = 0; i2 = 0; 
