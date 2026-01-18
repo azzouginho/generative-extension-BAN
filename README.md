@@ -6,6 +6,8 @@
 
 **Keywords:** Riemannian Geometry, Elastic Shape Analysis, SRVF, Tangent PCA, Geodesic Shooting.
 
+**Paper analysis and derivartions:** `report.pdf`
+
 ## Abstract
 
 This project implements a rigorous framework for the statistical analysis of Brain Arterial Networks (BANs). We model BANs as **elastic graphs** within a Riemannian quotient space:
@@ -13,7 +15,6 @@ $$\mathcal{G} = \mathcal{B} / (\mathcal{P} \times SO(3))$$
 This structure ensures invariance to re-parameterization, rigid motion, and node permutation.
 
 **Key Contribution:** Beyond descriptive statistics, we introduce a **generative model** exploiting the local linearity of the tangent space at the Fréchet mean. By sampling from a multivariate Gaussian distribution on the tangent bundle and performing **geodesic shooting** (Exponential Map), we synthesize plausible arterial networks to address the "Small Data" problem in medical imaging.
-
 
 
 ## Methodology: Generative Geodesic Shooting
